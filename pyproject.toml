@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rag"
+version = "0.1.0"
+description = ""
+authors = ["igor"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain-openai = "^0.2.9"
+langgraph = "^0.2.53"
+langchain-postgres = "^0.0.12"
+pypdf = "^5.1.0"
+psycopg = {extras = ["binary", "pool"], version = "^3.2.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
